@@ -20,6 +20,9 @@ jobs:
           keys:
             - node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
       - run:
+          name: install global package
+          command: npm install -g eslint@7.23.0
+      - run:
           name: install packages
           command: npm install
       - save_cache:
