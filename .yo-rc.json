@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "2.0.0"
+      }
+    ],
+    "applicationType": "monolith",
+    "baseName": "todovue",
+    "jhipsterVersion": "7.0.1",
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1644729259089,
+    "serverPort": "8081",
+    "packageName": "com.jhipster.node",
+    "databaseType": "sql",
+    "devDatabaseType": "sqlite",
+    "prodDatabaseType": "postgresql",
+    "authenticationType": "jwt",
+    "clientFramework": "vue",
+    "withAdminUi": true,
+    "clientTheme": "none",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "packageFolder": "com/jhipster/node",
+    "jwtSecretKey": "MGVmNzM5YTJjZTA1ODViMTdjMTAzZjc1YjRhMjAwNTc3MGZkNGFkZmUwNzI2ZDBlMGI5ZjRjM2VhNjcxYTg1ZTQ0YTYyNDAwYjM3ZDc2ODFlYmFmZTZmZDViZjgyYmY5YTUxNDlhN2MwNjZiY2EyZTk4MWUxZjA2NTRlZDBmZjQ=",
+    "serviceDiscoveryType": false,
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "clientPackageManager": "npm",
+    "clientThemeVariant": "",
+    "languages": ["en", "ko"],
+    "cacheProvider": "ehcache",
+    "buildTool": "maven",
+    "enableHibernateCache": true,
+    "reactive": false,
+    "lastLiquibaseTimestamp": 1645013408000,
+    "entities": ["Todo"]
+  }
+}
